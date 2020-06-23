@@ -1,5 +1,5 @@
 # Modeling Global and Local Node Contexts for Text Generation from Knowledge Graphs
-This repository contains the code for the paper: "Modeling Global and Local Node Contexts for Text Generation from Knowledge Graphs".
+This repository contains the code for the paper: "[Modeling Global and Local Node Contexts for Text Generation from Knowledge Graphs](https://arxiv.org/pdf/2001.11003.pdf)".
 
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
 
