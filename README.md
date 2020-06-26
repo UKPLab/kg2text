@@ -1,9 +1,9 @@
 # Modeling Global and Local Node Contexts for Text Generation from Knowledge Graphs
-This repository contains the code for the paper: "[Modeling Global and Local Node Contexts for Text Generation from Knowledge Graphs](https://arxiv.org/pdf/2001.11003.pdf)".
+This repository contains the code for the TACL paper: "[Modeling Global and Local Node Contexts for Text Generation from Knowledge Graphs](https://arxiv.org/pdf/2001.11003.pdf)".
 
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
 
-This project is implemented using the framework [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py) and the library [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric). Please, refer to their website for further details on the installation and dependencies.
+This project is implemented using the framework [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py) and the library [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric). Please, refer to their websites for further details on the installation and dependencies.
 
 ## Environments and Dependencies
 
@@ -51,7 +51,7 @@ Examples:
 
 ## Decoding
 
-For decode, run:
+For decoding, run:
 ```
 ./decode_AGENDA.sh <gpu_id> <model> <nodes_file> <graph_file> <output>
 ./decode_WEBNLG.sh <gpu_id> <model> <nodes_file> <graph_file> <output>
