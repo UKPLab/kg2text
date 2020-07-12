@@ -10,6 +10,10 @@ This project is implemented using the framework [OpenNMT-py](https://github.com/
 - python 3.6
 - PyTorch 1.1.0
 - PyTorch Geometric 1.3.1
+- torch-cluster - 1.4.4
+- torch-scatter - 1.3.1
+- torch-sparse - 0.4.0
+- torch-spline-conv - 1.1.0
 - subword-nmt 0.3.6
 
 ## Datasets
