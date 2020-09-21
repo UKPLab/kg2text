@@ -83,13 +83,26 @@ Contact person: Leonardo Ribeiro, ribeiro@aiphes.tu-darmstadt.de
 
 ## Citation
 ```
-@misc{ribeiro2020modeling,
-    title={Modeling Global and Local Node Contexts for Text Generation from Knowledge Graphs},
-    author={Leonardo F. R. Ribeiro and Yue Zhang and Claire Gardent and Iryna Gurevych},
-    year={2020},
-    eprint={2001.11003},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@article{doi:10.1162/tacl\_a\_00332,
+author = {Ribeiro, Leonardo F. R. and Zhang, Yue and Gardent, Claire and Gurevych, Iryna},
+title = {Modeling Global and Local Node Contexts for Text Generation from Knowledge Graphs},
+journal = {Transactions of the Association for Computational Linguistics},
+volume = {8},
+number = {},
+pages = {589-604},
+year = {2020},
+doi = {10.1162/tacl\_a\_00332},
+
+URL = { 
+        https://doi.org/10.1162/tacl_a_00332
+    
+},
+eprint = { 
+        https://doi.org/10.1162/tacl_a_00332
+    
+}
+,
+    abstract = { Recent graph-to-text models generate text from graph-based data using either global or local aggregation to learn node representations. Global node encoding allows explicit communication between two distant nodes, thereby neglecting graph topology as all nodes are directly connected. In contrast, local node encoding considers the relations between neighbor nodes capturing the graph structure, but it can fail to capture long-range relations. In this work, we gather both encoding strategies, proposing novel neural models that encode an input graph combining both global and local node contexts, in order to learn better contextualized node embeddings. In our experiments, we demonstrate that our approaches lead to significant improvements on two graph-to-text datasets achieving BLEU scores of 18.01 on the AGENDA dataset, and 63.69 on the WebNLG dataset for seen categories, outperforming state-of-the-art models by 3.7 and 3.1 points, respectively. }
 }
 ```
 
