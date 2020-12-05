@@ -49,8 +49,8 @@ Options for `<graph_encoder>` are `pge`, `cge`, `pge-lw` or `cge-lw`.
 
 Examples:
 ```
-./train_AGENDA.sh pge 0 
-./train_WEBNLG.sh cge-lw 0 
+./train_AGENDA.sh 0 pge 
+./train_WEBNLG.sh 0 cge-lw
 ```
 
 ## Decoding
