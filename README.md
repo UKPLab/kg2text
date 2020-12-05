@@ -37,12 +37,12 @@ For the WebNLG dataset, run:
 ## Training
 For traning the model using the AGENDA dataset, execute:
 ```
-./train_AGENDA.sh <graph_encoder> <gpu_id>
+./train_AGENDA.sh <gpu_id> <graph_encoder> 
 ```
 
 For the WebNLG dataset, execute:
 ```
-./train_WEBNLG.sh <graph_encoder> <gpu_id>
+./train_WEBNLG.sh <gpu_id> <graph_encoder> 
 ```
 
 Options for `<graph_encoder>` are `pge`, `cge`, `pge-lw` or `cge-lw`. 
